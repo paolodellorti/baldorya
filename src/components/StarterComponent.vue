@@ -13,7 +13,7 @@
             :height="60"
             :noanimate="true"
             text="get started"
-            success-text="success"
+            success-text="let's start"
             @completed="complete()"
         />
     </div>
@@ -29,7 +29,7 @@ export default {
     },
     methods: {
         complete: function() {
-            this.$emit("completed")
+            setTimeout(() => this.$emit("completed"), 1000)
         }
     }
 }
@@ -52,7 +52,7 @@ export default {
     }
     #starter {
         height: 100vh;
-        width: 400px;
+        max-width: 400px;
         margin: 0 auto;
         display: flex;
         flex-direction: column;

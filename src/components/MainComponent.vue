@@ -23,7 +23,7 @@ export default {
     .main {
         padding-top: 60px;
         height: 100vh;
-        width: 400px;
+        max-width: 400px;
         margin: 0 auto;
     }
     .title {
