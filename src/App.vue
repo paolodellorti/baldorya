@@ -1,10 +1,10 @@
 <template>
-  <Transition name="slide-fade">
+  <transition name="slide-fade">
     <starter-component v-if="showStarter" @completed="showStarter = false" />
-  </Transition>
-  <Transition name="slide-fade">
+  </transition>
+  <transition name="slide-fade">
     <main-component v-if="!showStarter" @backHome="showStarter = true"/>
-  </Transition>
+  </transition>
 </template>
 
 <script>
@@ -31,7 +31,6 @@ export default {
 
 
 #app {
-  font-family: 'Titillium Web', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -40,6 +39,7 @@ export default {
 body {
   background-color: black;
   margin: 0;
+  font-family: 'Titillium Web', sans-serif;
 }
 span {
   color: #41B883;
