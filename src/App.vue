@@ -3,7 +3,7 @@
     <starter-component v-if="showStarter" @completed="showStarter = false" />
   </Transition>
   <Transition name="slide-fade">
-    <main-component v-if="!showStarter" />
+    <main-component v-if="!showStarter" @backHome="showStarter = true"/>
   </Transition>
 </template>
 

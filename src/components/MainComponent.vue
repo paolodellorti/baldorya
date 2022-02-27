@@ -1,6 +1,6 @@
 <template>
   <div class="main">
-      <div class="title">
+      <div class="title" @click="$emit('backHome')">
         <img alt="baldorYa logo" src="../assets/logo.svg">
         <h1>baldor<span>y</span>a</h1>
       </div>
@@ -37,6 +37,7 @@ export default {
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        cursor: pointer;
     }
     h1 {
         font-family: 'Anton', sans-serif;

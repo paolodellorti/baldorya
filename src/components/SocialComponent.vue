@@ -22,6 +22,7 @@ export default {
     }
     img {
         transition: all 0.2s;
+        cursor: pointer;
     }
     img:hover {
         filter: invert(51%) sepia(7%) saturate(2860%) hue-rotate(101deg) brightness(118%) contrast(94%);
