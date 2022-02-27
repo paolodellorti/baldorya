@@ -28,7 +28,6 @@ export default {
 <style scoped>
     .main {
         padding-top: 60px;
-        height: 100vh;
         max-width: 400px;
         margin: 0 auto;
     }
