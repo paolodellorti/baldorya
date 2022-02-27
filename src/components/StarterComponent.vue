@@ -59,7 +59,4 @@ export default {
         align-items: center;
         justify-content: space-evenly;
     }
-    .slideunlock {
-        background-color: #fff;
-    }
 </style>
