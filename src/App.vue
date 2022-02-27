@@ -40,7 +40,6 @@ export default {
 body {
   background-color: black;
   margin: 0;
-  overflow: hidden;
 }
 span {
   color: #41B883;
@@ -57,5 +56,11 @@ span {
 .slide-fade-leave-to {
   transform: translateX(20px);
   opacity: 0;
+}
+body::-webkit-scrollbar {
+    width: 1px;
+}
+body::-webkit-scrollbar-track {
+    background-color: #000;
 }
 </style>
