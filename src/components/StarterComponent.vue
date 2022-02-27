@@ -60,6 +60,6 @@ export default {
         justify-content: space-evenly;
     }
     .slideunlock {
-        background-color: #fff6e8;
+        background-color: #fff;
     }
 </style>
