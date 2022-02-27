@@ -2,8 +2,8 @@
     <div id="starter">
         <img alt="Vue logo" src="../assets/logo.svg">
         <div>
-            <h1>baldor<span style="color: #41B883">y</span>a</h1>
-            <h2>Share your party.</h2>
+            <h1>baldor<span>y</span>a</h1>
+            <h2>Share <span>y</span>our part<span>y</span>.</h2>
         </div>
         <slide-unlock
             class="slideunlock"
