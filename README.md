@@ -1,5 +1,7 @@
 # baldorya
 
+[baldorya.netlify.app](https://baldorya.netlify.app/)
+
 ## Project setup
 ```
 npm install
